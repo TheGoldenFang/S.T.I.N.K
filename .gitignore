@@ -4,3 +4,5 @@ tarpENV
 log.txt
 # Dev Project files
 Project Details.md
+# Confidential Config files
+config.yaml

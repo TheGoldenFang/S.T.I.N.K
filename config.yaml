@@ -1,0 +1,27 @@
+# Structure of the tank and environment
+config:
+  # Septic tank is round, measurement in ft (feet)
+  round:
+    radius: 4
+  # Septic tank is a cuboid, measurement in ft (feet)
+  rectangle:
+    length: 10
+    width: 10
+  # Depth of the septic tank, measurement in ft (feet)
+  depth: 10
+  # Capacity of the tank, measurement in ft (cubic feet)
+  tankSize: 1200
+  soil-type: loam
+  # last time the septic tank has been cleaned
+  last-cleanup: "2023-01-01T00:00:00Z"
+
+# Sensor Data from the septic tank
+data:
+  water-level: 10 # in ft
+  sludge-depth: 10 # in ft
+  temperature: 10 # in degrees Celsius
+  soil-moisture: 10 # in percentage
+  ph: 10
+  methane: 10 # in ppm (parts per million)
+  hydrogen-sulfide: 10 # in ppm (parts per million)
+  ammonia: 10 # in ppm (parts per million)

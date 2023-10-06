@@ -2,7 +2,6 @@
   "name": "S.T.I.N.K (Septic Tank Intelligent Notification and Knowledge System)",
   "version": "1.0.0",
   "slug": "septic_tank_automation",
-  "description": "Septic tank size sensor based on ErieWater IQSoft device API",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
   "startup": "services",
   "boot": "auto",
